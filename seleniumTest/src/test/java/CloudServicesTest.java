@@ -20,7 +20,7 @@ public class CloudServicesTest {
     }
 
     @Test
-    public void CloudServicesTest() {
+    public void cloudServicesTest() {
 
         driver.navigate().to("https://app.bluealert.pl/ba/form/formularz-testowy");
 
