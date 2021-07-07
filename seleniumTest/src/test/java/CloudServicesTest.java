@@ -49,7 +49,7 @@ public class CloudServicesTest {
         assertTrue(consents.isDisplayed());
     }
 
-    //@AfterMethod
+    @AfterMethod
     public void afterTest() {
         driver.close();
         driver.quit();
